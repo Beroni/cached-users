@@ -60,6 +60,12 @@ Sua solução deve funcionar com Python 3.6 ou mais recente.
 
 Use a biblioteca `requests` para fazer requisições na API.
 
+Seu programa deve usar o arquivo CSV como cache:
+
+1. O arquivo começa vazio
+2. Ao executar o programa uma vez para um determinado username deve adicionar apenas os dados do username consultado
+3. Em consultas futuras desse username, deve retornar os dados do CSV, sem fazer consulta na API
+
 ## Dicas
 
 Não tente resolver tudo de uma vez. Quebre o problema em etapas.

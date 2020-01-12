@@ -28,17 +28,17 @@ Prova Técnica para a vaga de Desenvolvedor(a) Python Junior Remoto na empresa I
 Exemplificando a estrutura de dados utilizada: 
 ```python
 cache = {
-    Bret : {
-        email: Sincere@april.biz,
-        website: hildegard.org,
-        hemisphere: sul,
-        username: Bret 
+    'Bret' : {
+        'email': 'Sincere@april.biz',
+        'website': 'hildegard.org',
+        'hemisphere': 'sul',
+        'username': 'Bret' 
     },
-    Antonette : {
-        email: Shanna@melissa.tv,
-        website: anastasia.net,
-        hemisphere: sul,
-        username: Antonette 
+    'Antonette' : {
+        'email': 'Shanna@melissa.tv',
+        'website': 'anastasia.net',
+        'hemisphere': 'sul',
+        'username': 'Antonette' 
     }
 }
 
